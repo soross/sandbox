@@ -1,0 +1,57 @@
+---
+title: Projects
+
+# true if the page is included in the menu
+listed: true
+
+# true if the page is published
+published: true
+
+# true if the page can be used as a layout for new pages created by the editors
+# is_layout: true
+
+# position among sibling pages
+# position: 1
+
+# sets a redirection to the given url (301)
+# redirect_url: "<url to a page or to a remote url>"
+
+# other unique identifier of this page. To be used with the path_to liquid tag.
+# handle: my-page-handle
+
+# content type that this page is templatizing
+# content_type: "<slug of one of the content types>"
+
+
+# editable_elements:
+#   'some_block/some_slug': "<text>"
+#   'some_block/some_slug': "<relative path to the file under the public/samples folder>"
+---
+{% extends 'layouts/simple' %}
+
+{% block content/main, short_name: true %}
+
+{% editable_model projects %}
+<div class="row">
+  <div class="col-sm-12">
+    {% for project in contents.projects %}
+    <div class="media">
+      <div class="media-left">
+        <img class="media-object" src="{{ project.image.url | default: 'http://loremflickr.com/100/100' | resize: '100x100#' }}" alt="{{ project.name }}">
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">
+          <a href="{% path_to project %}">{{ project.name }}</a>
+        </h4>
+        <p><strong>Client:</strong> {{ project.client }}
+        <div>
+          {{ project.description }}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endeditable_model %}
+
+{% endblock %}

@@ -1,0 +1,5 @@
+production:
+  host: https://kyan-cms-demo-locomotive.herokuapp.com
+  handle: ardmore
+  email: dan.watson@kyan.com
+  api_key: 578664e6a0bc4f4eba6db4902274c5f065dc1999

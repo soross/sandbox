@@ -1,0 +1,20 @@
+- "Sample 1":
+    client: "Asperiores labore consequatur laborum et nemo sunt impedit sed."
+    description: "Sed illum maxime soluta. Beatae impedit voluptatem neque ut. Facere dignissimos cupiditate at. Et placeat at animi. Dolore et dignissimos nisi assumenda omnis minima."
+    # image: /samples/projects/yourfile.txt # Path to a file in the public/samples folder or to a remote and external file.
+
+- "Sample 2":
+    client: "Officia quo magni ipsa aliquid expedita."
+    description: "Quis enim incidunt id voluptatibus rerum. Ipsum nobis cum. Minus sed eos quaerat impedit natus qui. Et architecto aspernatur."
+    # image: /samples/projects/yourfile.txt # Path to a file in the public/samples folder or to a remote and external file.
+
+- "Sample 3":
+    client: "Totam ut minus aspernatur corrupti esse."
+    description: "Officia delectus non sit earum. Necessitatibus ea facilis impedit. Quibusdam provident qui id ut doloribus. Quas expedita amet blanditiis libero cupiditate."
+    # image: /samples/projects/yourfile.txt # Path to a file in the public/samples folder or to a remote and external file.
+
+- "Sample 4":
+    client: "Eaque accusamus ut omnis nam."
+    description: "Accusantium tempora veritatis repellat libero. Perferendis consequatur neque enim aperiam autem. Qui ut voluptas quo accusantium est natus."
+    # image: /samples/projects/yourfile.txt # Path to a file in the public/samples folder or to a remote and external file.
+
