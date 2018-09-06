@@ -9,7 +9,7 @@ services:
     volumes:
       - .:/app
     ports:
-      - "3333:3333"
+      - "8080:8080"
     depends_on:
       - mongodb
   mongodb:
