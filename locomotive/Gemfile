@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.1.1'
+gem 'rails', '4.2.8'
 
 gem 'locomotivecms', '~> 3.2.0'
 
