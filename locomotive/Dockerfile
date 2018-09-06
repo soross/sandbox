@@ -16,4 +16,4 @@ RUN bundle install
 
 ADD . $APP_HOME
 
-EXPOSE 3333
+EXPOSE 8080
