@@ -13,7 +13,7 @@
 #   bundle exec guard
 #
 
-guard 'livereload', host: '0.0.0.0', port: ENV['WAGON_LIVERELOAD_PORT'] || 35729, grace_period: 0.5 do
+guard 'livereload', host: '144.202.93.88', port: ENV['WAGON_LIVERELOAD_PORT'] || 8080, grace_period: 0.5 do
   watch(%r{app/content_types/.+\.yml$})
   watch(%r{app/views/.+\.liquid})
   watch(%r{config/.+\.yml$})
